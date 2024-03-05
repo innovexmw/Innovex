@@ -10,8 +10,8 @@ const Navbar = () => {
         setOpen(!isOpen);
     };
     return (
-        <main className='sticky top-0 z-50  '>
-            <div className='flex text-black bg-white w-full h-16 md:h-24 justify-between items-center  max-w-7xl mx-auto border-b-2 '>
+        <main className='sticky top-0 z-50 bg-white '>
+            <div className='flex text-black  w-full h-16 md:h-24 justify-between items-center  max-w-7xl mx-auto border-b-2 '>
                 <img src={logo} alt="Innovex" className=' h-40 w-40 md:h-56 md:w-56 md:ml-0 ml-3 ' />
                 <div className='hidden md:flex justify-center flex-grow text-black space-x-4'>
                     <button className="p-2 text-xl md:text-2xl font-semibold">About</button>

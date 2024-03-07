@@ -97,10 +97,10 @@ const Hero = () => {
               <div className="p-4  border-2 border-blue-500 rounded-3xl">
                 <img src={img5} alt="Logo 3" className="w-24 h-24 mx-auto mb-2" />
                 <h2 className="text-2xl font-semibold mb-2 text-center">Core Values</h2>
-                <p className="text-xl mb-16 text-center">
+                <p className="text-xl mb-10 text-center">
                   Ingenuity & Innovation: We Embrace Bold Ideas, Challenge The Status Quo, And Solutions That Push The Boundaries Of Technology.
                 </p>
-                <p className="text-xl mb-6 text-center">
+                <p className="text-xl mb-12 text-center">
                   Impact & Collaboration: We Partner With Purpose, Ensuring Our Technology Serves A Greater Good And Fosters A Spirit Of Shared Achievement.
                 </p>
                 <p className="text-xl mb-6 text-center">
@@ -115,7 +115,7 @@ const Hero = () => {
           <div className='max-w-6xl mx-auto'>
             <h1 className='text-5xl text-center py-10 underline'>Our Services</h1>
             {/* First row */}
-            <div className="flex flex-wrap justify-center  space-x-20">
+            <div className="flex flex-wrap justify-center  md:space-x-20">
               <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-4">
                 {/* First box */}
                 <div className=" p-4 rounded-md mb-4">
@@ -145,7 +145,7 @@ const Hero = () => {
             </div>
 
             {/* Second row */}
-            <div className="flex flex-wrap justify-center space-x-20">
+            <div className="flex flex-wrap justify-center md:space-x-20">
               <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-4">
                 {/* Fourth box */}
                 <div className=" p-4 rounded-md mb-4">
@@ -182,7 +182,7 @@ const Hero = () => {
             <h1 className="text-4xl md:text-7xl font-semibold  ">Get Free Tech</h1>
             <h1 className="text-4xl md:text-7xl font-semibold mb-4 md:text-nowrap ">Cunsultation With Us.</h1>
             
-            <p className="inline-block md:inline-block md:mr-2 mb-2 md:mb-0 text-2xl ">
+            <p className="inline-block md:inline-block md:mr-2 mb-2 md:mb-4 text-2xl ">
               We help you reach new markets and stand out against the competition.
             </p>
               <button className="bg-blue-500 text-white md:text-2xl text-xl py-2 px-3 md:py-4 md:px-6  rounded-2xl mb-2 md:mb-0 md:mr-2 text-nowrap">

@@ -42,7 +42,7 @@ const Hero = () => {
         </div>
       </div>
       <div className=' md:h-52 '>
-        <h1 className='text-center mx-auto text-3xl max-w-4xl mt-10 font-bold'>We disign and build beautiful brands, websites and products for your business that stand out the crowd.</h1>
+        <h1 className='text-center mx-auto text-3xl max-w-4xl mt-10 font-bold'>We design and build beautiful brands, websites and products for your business that stand out the crowd.</h1>
         <img src={img2} alt="sipline" className='mx-auto h-20 w-36 my-10' />
       </div>
       <div>
